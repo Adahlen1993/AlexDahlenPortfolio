@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Alex Dahlen</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cyborg/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="vanta-bg"></div>
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header">
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./aboutme.html">About</a></li>
+            <li><a href="./currentprojects.html">Projects</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main Section -->
+      <section id="pantrypal" class="wrapper style2">
+        <div class="inner centered-content">
+          <h2>PantryPal</h2>
+          <img
+            src="./Images/DALL·E 2024-06-27 09.53.23 - A modern and friendly logo for an app called PantryPal, which revolves around cooking. The logo should feature an icon of a chef's knife integrated wi-fotor-bg-remover-20240627102934 copy.png"
+            alt="PantryPal Logo"
+          />
+          <p>
+            My first solo project I worked on. This application lets a user
+            input their ingredients and it pulls up a recipe that the user can
+            make based on the ingredients that they have. I plan on polishing
+            this application further, adding more recipes or possibly an API. I
+            also would like to add more user functions such as users adding
+            their own recipes, a liked recipe system, and a shopping list system
+            that could link to Instacart.
+          </p>
+          <p>
+            GitHub:
+            <a href="https://github.com/Adahlen1993/Pantry-Pal"
+              >PantryPal Repository</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer" class="wrapper style4">
+        <div class="inner">
+          <header class="major">
+            <h2>Contact Information</h2>
+          </header>
+          <ul class="contact-info">
+            <li>
+              Email:
+              <a href="mailto:adahl1993@gmail.com">adahl1993@gmail.com</a>
+            </li>
+            <li>
+              LinkedIn:
+              <a href="www.linkedin.com/in/alex-dahlen"
+                >linkedin.com/in/alex-dahlen</a
+              >
+            </li>
+            <li>
+              GitHub:
+              <a href="https://github.com/Adahlen1993"
+                >github.com/Adahlen1993</a
+              >
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      // Smooth scroll to the element if hash is present in the URL
+      document.addEventListener("DOMContentLoaded", function () {
+        if (window.location.hash) {
+          const element = document.querySelector(window.location.hash);
+          if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
