@@ -283,4 +283,8 @@ ul.contact-info li {
     margin: 1em auto;
     text-align: center;
   }
+
+  i {
+    font-size: 80px;
+  }
   
